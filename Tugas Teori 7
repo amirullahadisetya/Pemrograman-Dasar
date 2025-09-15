@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNARoofeSIL5Hr1o/oCSGqs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/amirullahadisetya/Pemrograman-Dasar/blob/main/Tugas%20Teori%207\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qDmdQ3UxSoFx",
+        "outputId": "f13d7108-ed57-4fdc-847d-9678081fd0f9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama : Amirullah\n",
+            "Umur : 19\n",
+            "Jurusan : ELEKTRO\n",
+            "Semester : 3\n",
+            "Mata kuliah : Pemrograman Dasar\n",
+            "Status lulus : False\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Annotation\n",
+        "nama: str = \"Amirullah\"\n",
+        "umur: int = 19\n",
+        "jurusan: str = \"ELEKTRO\"\n",
+        "semester: int = 3\n",
+        "matakuliah: str = \"Pemrograman Dasar\"\n",
+        "status_lulus: bool = False\n",
+        "\n",
+        "# Fungsi Annotation\n",
+        "def cek_biodata(nama: str, umur: int, jurusan: str, semester: int, matakuliah: str, status_lulus: bool) -> None:\n",
+        "\n",
+        "\n",
+        "\n",
+        "    print(f\"Nama : {nama}\")\n",
+        "    print(f\"Umur : {umur}\")\n",
+        "    print(f\"Jurusan : {jurusan}\")\n",
+        "    print(f\"Semester : {semester}\")\n",
+        "    print(f\"Mata kuliah : {matakuliah}\")\n",
+        "    print(f\"Status lulus : {status_lulus}\")\n",
+        "\n",
+        "cek_biodata(nama, umur, jurusan, semester, matakuliah, status_lulus)\n"
+      ]
+    }
+  ]
+}
